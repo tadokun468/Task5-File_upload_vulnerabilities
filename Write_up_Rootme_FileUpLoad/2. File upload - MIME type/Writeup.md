@@ -18,6 +18,7 @@ Ta sẽ upload một file php với nội dung tương tự bài trước để 
 ![Alt text](image-4.png)
 
 Ta đã upload thành công 
+
 ![Alt text](image-3.png)
 
 Truy cập vào file upload đã upload ta được flag : a7n4nizpgQgnPERy89uanf6T4 
