@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  file-example:
+    build: ./example
+    volumes:
+      - ./example/src:/var/www/html
+      - /var/www/html/upload/ # for permission
+    ports:
+      - "12000:80"
