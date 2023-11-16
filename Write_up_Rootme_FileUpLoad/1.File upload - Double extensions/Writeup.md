@@ -13,6 +13,7 @@ Và phần chúng ta quan tâm đó chính là chức năng upload
 
 Trong thử thách này thì chỉ có các extensions .gif, .jpeg and .png mới được chấp nhận.
 Nhìn vào tiêu đề của chall thì ta cũng đoán được là bài này chúng ta cần sử dụng kĩ thuật `Double extensions` . Vậy thì mình sẽ thử sử dụng một file `Web_shell.php` với lệnh `phpinfo()` để thử xem webshell có hoạt động không.
+
 ![Alt text](image-5.png)
 
 Trước khi gửi lên server thì mình sẽ dùng Burp Suit để bắt request và đổi tên thành file `Web_shel.php.png`
