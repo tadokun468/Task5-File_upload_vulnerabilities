@@ -21,6 +21,7 @@ Khi có một request đến file có đuôi là `index.php`. Thì một mình `
 
 ## 3. PHP Upload File Vulnerable
 ![Alt text](image.png)
+
 Chúng ta đều đã quen thuộc với các tính năng thay đổi ảnh đại diện, ảnh bìa trong quá trình hoàn thành hồ sơ cá nhân. Quá trình tải lên một ảnh đại diện chính là đang thực hiện hành động upload file, cụ thể tệp tải lên ở đây là tệp tin dạng hình ảnh.
 
 Nếu thay vì upload một file avatar, kẻ tấn công có thể tải lên một tệp có phần mở rộng `.php`. Sau đó truy cập đường dẫn thư mục chứa tệp đã tải lên khiến hệ thống thực thi các lệnh trong tệp này.
